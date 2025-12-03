@@ -4,6 +4,9 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Acme - Your Go-To Next.js Dashboard",
+  icons: {
+    icon: [{ url: "/favicon.svg" }],
+  },
 };
 
 export default function RootLayout({
